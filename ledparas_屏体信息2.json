@@ -1,0 +1,2091 @@
+{
+    "COMLIST": [
+        {
+            "LEDPARAS": {
+                "ANDROID_IP": "192.168.123.87",
+                "ANDROID_MAC": "28:ed:e0:fc:0f:4d",
+                "CMD": "GET_LED_PARAS",
+                "COMMON_MODPARAS": {
+                    "DATAGROUP": "4",
+                    "DATAORDER": "96*27",
+                    "ICSYLE": "ICN2055",
+                    "LAMP_PARA": {
+                        "ANGLE": "120",
+                        "ANTISTATIC": "700",
+                        "BRIGHT": "80",
+                        "LEAKAGE_CURRENT": "5",
+                        "STYLE": "SMD3528",
+                        "WAVELEN": "R:400~480,G:620~750,B:480~500"
+                    },
+                    "MOD_RSLT": "120 * 135",
+                    "MOD_SIZE": "640*320",
+                    "MOD_SPACE": "1.27",
+                    "SCAN_NUM": "27"
+                },
+                "COMMON_RECPARAS": {
+                    "BOX_NAME": "UHPll1.2",
+                    "BOX_TYPE": "C180035-P",
+                    "CMD": "GET_REC_PARAS",
+                    "FAN_CTRL": "1",
+                    "MODULE_CNT": "8",
+                    "MOD_ORDER": "4 * 2",
+                    "REC_CNT": "1 * 1",
+                    "REC_TYPE": "R1",
+                    "REC_UPG_PRO": "REC.20190401.1030",
+                    "WORKSTATE": "1"
+                },
+                "CONTRAST": "5000:1",
+                "CURRENT": "0.0",
+                "CURRENT_WORKTIME": "7500",
+                "CUSTOM": "UNILUMIN",
+                "ENVI_BRIGHT": "0",
+                "FAN_CTRL": "1",
+                "HUE": "255",
+                "HUMIDITY": "0.0",
+                "LED_RSLT": "1920 * 1080",
+                "LED_SPACE": "1.27",
+                "LED_TYPE": "ZHULING",
+                "ORDERFORM": "000232565",
+                "RT_POWERDIS": "0.0",
+                "SATURABILITY": "72",
+                "SENDER_CNT": "1",
+                "SENDER_ORDER": [
+                    {
+                        "BRIGHT": "50",
+                        "CHROMA": "2048,2048,2048",
+                        "DEFAULT_BRIGHT": "20",
+                        "GAMMA": "2.80",
+                        "ID": "SENDER 1",
+                        "INPUTSOURCE": "DVI",
+                        "IPADDR": "192.168.123.91",
+                        "MACADDR": "20-85-93-30-00-5B",
+                        "PORT": "7142",
+                        "PORT_ORDER": [
+                            {
+                                "BOX": [
+                                    {
+                                        "ID": "11",
+                                        "ORDER": "1",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "1",
+                                        "YPOS": "1"
+                                    },
+                                    {
+                                        "ID": "12",
+                                        "ORDER": "2",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "1",
+                                        "YPOS": "2"
+                                    },
+                                    {
+                                        "ID": "13",
+                                        "ORDER": "3",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "1",
+                                        "YPOS": "3"
+                                    },
+                                    {
+                                        "ID": "14",
+                                        "ORDER": "4",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "1",
+                                        "YPOS": "4"
+                                    }
+                                ],
+                                "ID": "P1"
+                            },
+                            {
+                                "BOX": [
+                                    {
+                                        "ID": "31",
+                                        "ORDER": "1",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "3",
+                                        "YPOS": "1"
+                                    },
+                                    {
+                                        "ID": "32",
+                                        "ORDER": "2",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "40"
+                                            }
+                                        ],
+                                        "XPOS": "3",
+                                        "YPOS": "2"
+                                    },
+                                    {
+                                        "ID": "33",
+                                        "ORDER": "3",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "3",
+                                        "YPOS": "3"
+                                    },
+                                    {
+                                        "ID": "34",
+                                        "ORDER": "4",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "3",
+                                        "YPOS": "4"
+                                    }
+                                ],
+                                "ID": "P3"
+                            },
+                            {
+                                "BOX": [
+                                    {
+                                        "ID": "21",
+                                        "ORDER": "1",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "2",
+                                        "YPOS": "1"
+                                    },
+                                    {
+                                        "ID": "22",
+                                        "ORDER": "2",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "2",
+                                        "YPOS": "2"
+                                    },
+                                    {
+                                        "ID": "23",
+                                        "ORDER": "3",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "2",
+                                        "YPOS": "3"
+                                    },
+                                    {
+                                        "ID": "24",
+                                        "ORDER": "4",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "SENSOR_POWER": [
+                                            {
+                                                "ID": "0",
+                                                "VALUE": "41"
+                                            }
+                                        ],
+                                        "XPOS": "2",
+                                        "YPOS": "4"
+                                    }
+                                ],
+                                "ID": "P2"
+                            },
+                            {
+                                "BOX": [
+                                    {
+                                        "ID": "41",
+                                        "ORDER": "1",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "XPOS": "4",
+                                        "YPOS": "1"
+                                    },
+                                    {
+                                        "ID": "42",
+                                        "ORDER": "2",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "XPOS": "4",
+                                        "YPOS": "2"
+                                    },
+                                    {
+                                        "ID": "43",
+                                        "ORDER": "3",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "XPOS": "4",
+                                        "YPOS": "3"
+                                    },
+                                    {
+                                        "ID": "44",
+                                        "ORDER": "4",
+                                        "REC": [
+                                            {
+                                                "AVE_POWERDIS": "43",
+                                                "CURRENT_WORKTIME": "3500",
+                                                "MAX_POWER": "220",
+                                                "MOD": [
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "1",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "2",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "3",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "4",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "5",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "6",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "7",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    },
+                                                    {
+                                                        "DEAD_LED": "0",
+                                                        "ID": "C160080",
+                                                        "MOD_BRI": "600",
+                                                        "POS": "8",
+                                                        "SENSOR_CURRENT": "2",
+                                                        "SENSOR_HUMI": "30",
+                                                        "SENSOR_TMP": "35",
+                                                        "SENSOR_VOL": "4.8",
+                                                        "TOTAL_WORKTIME": "7200"
+                                                    }
+                                                ],
+                                                "MOD_STATE": "normal",
+                                                "REC_BRIGHT": "600",
+                                                "REC_CHROMA": "100",
+                                                "REC_ID": "C160080",
+                                                "REC_POS": "1",
+                                                "REC_VER": "ZE0233-29",
+                                                "REFRESH": "3840",
+                                                "RT_POWERDIS": "55",
+                                                "SENSOR_BRI": "30",
+                                                "SENSOR_CURRENT": "2",
+                                                "SENSOR_HUMI": "30",
+                                                "SENSOR_SMOG": "333",
+                                                "SENSOR_TMP": "35",
+                                                "SENSOR_VOL": "220",
+                                                "TOTAL_WORKTIME": "7500",
+                                                "VOLTAGE": "220"
+                                            }
+                                        ],
+                                        "XPOS": "4",
+                                        "YPOS": "4"
+                                    }
+                                ],
+                                "ID": "P4"
+                            }
+                        ],
+                        "SDR_UGD_PRO": "Main program (Firmware)",
+                        "SDR_UGD_PRO_FPGA": "Processor FPGA Program",
+                        "SENDERORDER": "1",
+                        "SENDER_BOXTOTAL": "16",
+                        "SENDER_BOXUSED": "16",
+                        "SENDER_PXCNT": "4",
+                        "SENDER_PYCNT": "1",
+                        "SENDER_TYPE": " Sirius-4K",
+                        "VER": "ZE0202-12",
+                        "VER_FPGA": "ZE0222-13",
+                        "VOLTAGE": "5"
+                    }
+                ],
+                "TEMP": "0.0",
+                "TOTAL_WORKTIME": "7500",
+                "VOLTAGE": "0.0"
+            }
+        }
+    ],
+    "DESTINATION": {
+        "DEVICE": "SERVER",
+        "ID": "1248127",
+        "INTERFACES": "NET"
+    },
+    "SOURCE": {
+        "DEVICE": "LEDSCREEN",
+        "LEDSCREEN": {
+            "INDEX": "UP4K-28EDE0FC0F4D-3EFB"
+        }
+    }
+}
