@@ -45,7 +45,7 @@
       background-color: #61a1bc;
       border-radius: 2px;
       box-shadow: 0 1px 1px #ccc;
-      width: 400px;
+      width: 1500px;
       padding: 35px 60px;
       margin: 50px auto;
     }
@@ -104,38 +104,28 @@
 <!-- v-cloak 隐藏未编译的变量，直到 Vue 实例准备就绪。 -->
 
 <form id="main" v-cloak>
-
-  <h1>Services</h1>
-
   <ul>
 
     <!-- 循环输出 services 数组, 设置选项点击后的样式 -->
 
-    <li v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}">
+    <li style="height: 6px;" v-for="service in services" v-bind:class="{ 'active': service.active}">
 
       <!-- 显示订单中的服务名，价格
                  Vue.js 定义了货币过滤器，用于格式化价格 -->
 
-      {{service.name}} <span>{{service.price | currency}}</span>
+      {{service.name}} <span>{{service.price}}</span>
 
     </li>
   </ul>
 
-  <div class="total">
-
-    <!-- 计算所有服务的价格，并格式化货币 -->
-
-    Total: <span>{{total() | currency}}</span>
-
-  </div>
 
 </form>
 <script>
 
   // 自定义过滤器 "currency".
-  Vue.filter('currency', function (value) {
-    return '$' + value.toFixed(2);
-  });
+  // Vue.filter('currency', function (value) {
+  //   return  value.toFixed(2);
+  // });
 
   var demo = new Vue({
     el: '#main',
@@ -144,40 +134,39 @@
       // 视图将循环输出数组的数据
       services: [
         {
-          name: 'Web Development',
+          name: '屏体-维保时长',
           price: 300,
           active:true
         },{
-          name: 'Design',
-          price: 400,
+          name: '发送卡-是否正常',
+          price: 0,
           active:false
         },{
-          name: 'Integration',
-          price: 250,
+          name: '箱体-是否正常',
+          price: 0,
           active:false
         },{
-          name: 'Training',
+          name: '发送卡-电压',
+          price: 220,
+          active:false
+        },{
+          name: '设备IP',
+          price: '192.168.123.87',
+          active:false
+        },{
+          name: '发送卡-通信状态',
+          price: 220,
+          active:false
+        },{
+          name: '箱体-异常原因',
+          price: 220,
+          active:false
+        },{
+          name: '箱体-维修进度',
           price: 220,
           active:false
         }
       ]
-    },
-    methods: {
-      toggleActive: function(s){
-        s.active = !s.active;
-      },
-      total: function(){
-
-        var total = 0;
-
-        this.services.forEach(function(s){
-          if (s.active){
-            total+= s.price;
-          }
-        });
-
-        return total;
-      }
     }
   });
 
