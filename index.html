@@ -105,16 +105,35 @@
 
 <form id="main" v-cloak>
   <ul>
-
-    <!-- 循环输出 services 数组, 设置选项点击后的样式 -->
-
-    <li style="height: 6px;" v-for="service in services" v-bind:class="{ 'active': service.active}">
-
-      <!-- 显示订单中的服务名，价格
-                 Vue.js 定义了货币过滤器，用于格式化价格 -->
-
-      {{service.name}} <span>{{service.price}}</span>
-
+    <li style="height: 6px;" class="{ 'active':true }">
+      屏体-维保时长 <span>{{services.price}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      发送卡-是否正常 <span v-if="services.price === '0'">正常</span> <span v-else>不正常</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      箱体-是否正常 <span v-if="services.price === '0'">正常</span> <span v-else>不正常</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      发送卡-电压 <span>{{services.price}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      设备IP <span>{{services.ANDROID_IP}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      发送卡-通信状态 <span v-if="services.price === '0'">正常</span> <span v-else>不正常</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      箱体-异常原因 <span>{{services.price}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      箱体-维修进度 <span>{{services.price}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      设备MAC  <span>{{services.ANDROID_MAC}}</span>
+    </li>
+    <li style="height: 6px;" class="{ 'active':true }">
+      默认亮度  <span>{{services.DEFAULT_BRIGHT}}</span>
     </li>
   </ul>
 
@@ -132,41 +151,13 @@
     data: {
       // 定义模型属性 the model properties. The view will loop
       // 视图将循环输出数组的数据
-      services: [
-        {
+      services:{
           name: '屏体-维保时长',
-          price: 300,
-          active:true
-        },{
-          name: '发送卡-是否正常',
-          price: 0,
-          active:false
-        },{
-          name: '箱体-是否正常',
-          price: 0,
-          active:false
-        },{
-          name: '发送卡-电压',
-          price: 220,
-          active:false
-        },{
-          name: '设备IP',
-          price: '192.168.123.87',
-          active:false
-        },{
-          name: '发送卡-通信状态',
-          price: 220,
-          active:false
-        },{
-          name: '箱体-异常原因',
-          price: 220,
-          active:false
-        },{
-          name: '箱体-维修进度',
-          price: 220,
-          active:false
+          price: '0',
+          ANDROID_IP:'192.168.123.87',
+          ANDROID_MAC:'28:ed:e0:fc:0f:4d',
+          DEFAULT_BRIGHT:'20'
         }
-      ]
     }
   });
 
